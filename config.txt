@@ -3,11 +3,18 @@
   <param type="int" name="screen_height">900</param>
   <param type="bool" name="full_screen">false</param>
   <param type="string" name="screen_color">#CCCCCC</param>
+  <param type="string" name="credits_font_name">Fonts/StoryTelling.ttf</param>
+  <param type="int" name="credits_font_size">100</param>
+  <param type="int" name="credits_font_base_x">250</param>
+  <param type="int" name="credits_font_base_y">300</param>
 </section>
 
 <section name="game">
+  <param type="int" name="camera_y">400</param>
   <param type="int" name="starting_x">600</param>
-  <param type="int" name="starting_y">450</param>
-  <param type="float" name="move_speed">1</param>
+  <param type="int" name="starting_y">400</param>
+  <param type="float" name="move_acceleration">1</param>
   <param type="float" name="move_decay">0.96</param>
+  <param type="float" name="gravity">0.4</param>
+  <param type="float" name="terminal_velocity">12.0</param>
 </section>
