@@ -1,0 +1,6 @@
+
+Resolution:
+
+Probably going to try 1440x900.
+
+As a backup for performance, we'll try 1280x800.
